@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/web-dragon/static/css/main.2029064b.css",
+    "main.js": "/web-dragon/static/js/main.6013fd16.js",
+    "static/js/787.1ed0c42c.chunk.js": "/web-dragon/static/js/787.1ed0c42c.chunk.js",
+    "static/media/github-clean.png": "/web-dragon/static/media/github-clean.d6cd2d08565b8c1c2809.png",
+    "index.html": "/web-dragon/index.html",
+    "main.2029064b.css.map": "/web-dragon/static/css/main.2029064b.css.map",
+    "main.6013fd16.js.map": "/web-dragon/static/js/main.6013fd16.js.map",
+    "787.1ed0c42c.chunk.js.map": "/web-dragon/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2029064b.css",
+    "static/js/main.6013fd16.js"
+  ]
+}
