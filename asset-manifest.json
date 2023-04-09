@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/web-dragon/static/css/main.feb4ded7.css",
-    "main.js": "/web-dragon/static/js/main.8cdc2c3b.js",
+    "main.js": "/web-dragon/static/js/main.876595a7.js",
     "static/js/787.1ed0c42c.chunk.js": "/web-dragon/static/js/787.1ed0c42c.chunk.js",
     "static/media/github-clean.png": "/web-dragon/static/media/github-clean.d6cd2d08565b8c1c2809.png",
     "index.html": "/web-dragon/index.html",
     "main.feb4ded7.css.map": "/web-dragon/static/css/main.feb4ded7.css.map",
-    "main.8cdc2c3b.js.map": "/web-dragon/static/js/main.8cdc2c3b.js.map",
+    "main.876595a7.js.map": "/web-dragon/static/js/main.876595a7.js.map",
     "787.1ed0c42c.chunk.js.map": "/web-dragon/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.feb4ded7.css",
-    "static/js/main.8cdc2c3b.js"
+    "static/js/main.876595a7.js"
   ]
 }
