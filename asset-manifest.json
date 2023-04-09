@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/web-dragon/static/css/main.7714efac.css",
-    "main.js": "/web-dragon/static/js/main.240039f4.js",
+    "main.css": "/web-dragon/static/css/main.711887e2.css",
+    "main.js": "/web-dragon/static/js/main.6055457b.js",
     "static/js/787.1ed0c42c.chunk.js": "/web-dragon/static/js/787.1ed0c42c.chunk.js",
     "static/media/github-clean.png": "/web-dragon/static/media/github-clean.d6cd2d08565b8c1c2809.png",
     "index.html": "/web-dragon/index.html",
-    "main.7714efac.css.map": "/web-dragon/static/css/main.7714efac.css.map",
-    "main.240039f4.js.map": "/web-dragon/static/js/main.240039f4.js.map",
+    "main.711887e2.css.map": "/web-dragon/static/css/main.711887e2.css.map",
+    "main.6055457b.js.map": "/web-dragon/static/js/main.6055457b.js.map",
     "787.1ed0c42c.chunk.js.map": "/web-dragon/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7714efac.css",
-    "static/js/main.240039f4.js"
+    "static/css/main.711887e2.css",
+    "static/js/main.6055457b.js"
   ]
 }
