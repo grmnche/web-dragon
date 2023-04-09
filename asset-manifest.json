@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/web-dragon/static/css/main.81fe985b.css",
-    "main.js": "/web-dragon/static/js/main.c6dad9dd.js",
+    "main.css": "/web-dragon/static/css/main.feb4ded7.css",
+    "main.js": "/web-dragon/static/js/main.8cdc2c3b.js",
     "static/js/787.1ed0c42c.chunk.js": "/web-dragon/static/js/787.1ed0c42c.chunk.js",
     "static/media/github-clean.png": "/web-dragon/static/media/github-clean.d6cd2d08565b8c1c2809.png",
     "index.html": "/web-dragon/index.html",
-    "main.81fe985b.css.map": "/web-dragon/static/css/main.81fe985b.css.map",
-    "main.c6dad9dd.js.map": "/web-dragon/static/js/main.c6dad9dd.js.map",
+    "main.feb4ded7.css.map": "/web-dragon/static/css/main.feb4ded7.css.map",
+    "main.8cdc2c3b.js.map": "/web-dragon/static/js/main.8cdc2c3b.js.map",
     "787.1ed0c42c.chunk.js.map": "/web-dragon/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81fe985b.css",
-    "static/js/main.c6dad9dd.js"
+    "static/css/main.feb4ded7.css",
+    "static/js/main.8cdc2c3b.js"
   ]
 }
