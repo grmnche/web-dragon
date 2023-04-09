@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/web-dragon/static/css/main.feb4ded7.css",
-    "main.js": "/web-dragon/static/js/main.1294ecaa.js",
+    "main.css": "/web-dragon/static/css/main.daac7e7a.css",
+    "main.js": "/web-dragon/static/js/main.75be143d.js",
     "static/js/787.1ed0c42c.chunk.js": "/web-dragon/static/js/787.1ed0c42c.chunk.js",
     "static/media/github-clean.png": "/web-dragon/static/media/github-clean.d6cd2d08565b8c1c2809.png",
     "static/media/favicon.png": "/web-dragon/static/media/favicon.6278b7cd2f1e99a15b98.png",
     "index.html": "/web-dragon/index.html",
-    "main.feb4ded7.css.map": "/web-dragon/static/css/main.feb4ded7.css.map",
-    "main.1294ecaa.js.map": "/web-dragon/static/js/main.1294ecaa.js.map",
+    "main.daac7e7a.css.map": "/web-dragon/static/css/main.daac7e7a.css.map",
+    "main.75be143d.js.map": "/web-dragon/static/js/main.75be143d.js.map",
     "787.1ed0c42c.chunk.js.map": "/web-dragon/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.feb4ded7.css",
-    "static/js/main.1294ecaa.js"
+    "static/css/main.daac7e7a.css",
+    "static/js/main.75be143d.js"
   ]
 }
