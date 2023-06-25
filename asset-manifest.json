@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/littleWebdragon/static/css/main.d3af7667.css",
-    "main.js": "/littleWebdragon/static/js/main.af5c5f5e.js",
-    "static/js/787.1ed0c42c.chunk.js": "/littleWebdragon/static/js/787.1ed0c42c.chunk.js",
+    "main.js": "/littleWebdragon/static/js/main.b9de77fd.js",
+    "static/js/787.f5365eb6.chunk.js": "/littleWebdragon/static/js/787.f5365eb6.chunk.js",
     "static/media/github-clean.png": "/littleWebdragon/static/media/github-clean.d6cd2d08565b8c1c2809.png",
     "static/media/dragon-dad.png": "/littleWebdragon/static/media/dragon-dad.0df1436f626c681ad59d.png",
     "static/media/tg-clean.png": "/littleWebdragon/static/media/tg-clean.04ced6a3b044d1059d64.png",
     "index.html": "/littleWebdragon/index.html",
     "main.d3af7667.css.map": "/littleWebdragon/static/css/main.d3af7667.css.map",
-    "main.af5c5f5e.js.map": "/littleWebdragon/static/js/main.af5c5f5e.js.map",
-    "787.1ed0c42c.chunk.js.map": "/littleWebdragon/static/js/787.1ed0c42c.chunk.js.map"
+    "main.b9de77fd.js.map": "/littleWebdragon/static/js/main.b9de77fd.js.map",
+    "787.f5365eb6.chunk.js.map": "/littleWebdragon/static/js/787.f5365eb6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3af7667.css",
-    "static/js/main.af5c5f5e.js"
+    "static/js/main.b9de77fd.js"
   ]
 }
