@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/web-dragon/static/css/main.b782adaa.css",
-    "main.js": "/web-dragon/static/js/main.4d037f68.js",
+    "main.css": "/web-dragon/static/css/main.cc7df3cc.css",
+    "main.js": "/web-dragon/static/js/main.71e7b84c.js",
     "static/js/787.e5e52feb.chunk.js": "/web-dragon/static/js/787.e5e52feb.chunk.js",
     "static/media/github-clean.png": "/web-dragon/static/media/github-clean.d6cd2d08565b8c1c2809.png",
     "static/media/dragon-dad.png": "/web-dragon/static/media/dragon-dad.0df1436f626c681ad59d.png",
     "static/media/tg-clean.png": "/web-dragon/static/media/tg-clean.04ced6a3b044d1059d64.png",
     "index.html": "/web-dragon/index.html",
-    "main.b782adaa.css.map": "/web-dragon/static/css/main.b782adaa.css.map",
-    "main.4d037f68.js.map": "/web-dragon/static/js/main.4d037f68.js.map",
+    "main.cc7df3cc.css.map": "/web-dragon/static/css/main.cc7df3cc.css.map",
+    "main.71e7b84c.js.map": "/web-dragon/static/js/main.71e7b84c.js.map",
     "787.e5e52feb.chunk.js.map": "/web-dragon/static/js/787.e5e52feb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b782adaa.css",
-    "static/js/main.4d037f68.js"
+    "static/css/main.cc7df3cc.css",
+    "static/js/main.71e7b84c.js"
   ]
 }
