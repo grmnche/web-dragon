@@ -1,0 +1,11 @@
+@import '../../assets/styles/mixins/query';
+@import '../../assets/styles/mixins/_flexbox';
+
+.skills {
+  gap: 40px;
+  
+  @include query(max, mobile) {
+    gap: 0;
+    row-gap: 20px;
+  }
+}

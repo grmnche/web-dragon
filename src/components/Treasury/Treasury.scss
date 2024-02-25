@@ -1,0 +1,10 @@
+.treasury {
+  .projects {
+    gap: 40px;
+
+    @include query(max, mobile) {
+      gap: 0;
+      row-gap: 20px;
+    }
+  }
+}

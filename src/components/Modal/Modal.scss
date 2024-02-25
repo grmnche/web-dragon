@@ -1,0 +1,47 @@
+@import '../../assets/styles/mixins/_flexbox';
+@import '../../assets/styles/mixins/query';
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #ff000011;
+  display: flex;
+  justify-content: center;
+  z-index: 20;
+  padding-inline: 20px;
+}
+
+.modal-body {
+  position: relative;
+  top: 30%;
+  height: fit-content;
+  background: rgba(24, 24, 24, 0.99);
+  color: white;
+  border-radius: 4px;
+}
+
+.modal-btn {
+  cursor: pointer;
+  @include flexbox(center, center, row, 0);
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  max-width: 450px;
+
+  @include query(max, mobile) {
+    max-width: unset;
+  }
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.close-modal-btn {
+  cursor: pointer;
+  display: inline-flex;
+  border-radius: 4px;
+}

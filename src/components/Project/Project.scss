@@ -1,0 +1,53 @@
+@import '../../assets/styles/mixins/query';
+@import '../../assets/styles/mixins/_flexbox';
+
+.project {
+  @include flexbox(initial, initial, row, 60px);
+  grid-column: 12 span;
+  padding: 40px;
+  border: 1px solid #dad39433;
+  border-radius: 4px;
+  background-color: #00000033;
+
+  @include query(max, tablet) {
+    @include flexbox(initial, initial, column, 20px);
+  }
+
+  @include query(max, mobile) {
+    padding: 20px;
+  }
+
+  &__picture {
+    img {
+      border-radius: 4px;
+      transition: 0.2s;
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+
+    width: 30%;
+    min-width: 600px;
+
+    @include query(max, tablet) {
+      width: 100%;
+      min-width: unset;
+    }
+  }
+
+  &__desc {
+    @include flexbox(initial, initial, column, 20px);
+
+    @include query(max, mobile) {
+      gap: 10px;
+    }
+  }
+
+  .project-text {
+    &__stack {
+      margin-left: 20px;
+      text-shadow: 0 0 20px #dad394;
+    }
+  }
+}
