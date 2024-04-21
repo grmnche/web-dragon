@@ -16,7 +16,7 @@ function Navbar() {
         >
           <a href="#top">
             <img
-              src="https://github.com/grmnche/images/blob/main/logo-dragon.png?raw=true"
+              src="./assets/images/dragon-white.png"
               className="z-10 nav-img w-14"
               alt=""
             />
