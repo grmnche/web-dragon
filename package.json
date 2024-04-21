@@ -9,7 +9,7 @@
     "build": "webpack --mode production",
     "watch": "webpack --mode development --watch",
     "start": "webpack-dev-server --mode development --open",
-    "predeploy": "yarn run dist",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {

@@ -7,14 +7,14 @@ export function Project({ className, index }) {
       title: 'Кибервариус',
       image: './assets/images/cybervarius.jpg',
       link: 'https://grmnche.github.io/cybervarius',
-      stack: 'React JS, SCSS, Tailwind, Webpack.',
+      stack: 'React JS, SCSS, Tailwind, Webpack',
     },
     {
       id: 2,
       title: 'Кинокомпания 8 Студия',
       image: './assets/images/8studio.jpg',
       link: 'https://8studiofilm.ru',
-      stack: 'React JS, SCSS, Tailwind, Webpack.',
+      stack: 'React JS, SCSS, Tailwind, Webpack',
     },
     {
       id: 3,
