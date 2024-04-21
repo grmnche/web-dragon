@@ -1,15 +1,14 @@
 @import '../../assets/styles/mixins/_flexbox';
 
 .skill {
-  @include flexbox(initial, initial, column, 30px);
+  @include flexbox(initial, initial, column, 20px);
   grid-column: 6 span;
   border: 1px solid #818181;
   padding: 40px;
-  border-radius: 4px;
+  border-radius: 8px;
   box-shadow: 0 0 6px #dad39444, inset 0 0 6px #dad39444;
   background-color: #00000033;
   opacity: 0.6;
-  cursor: pointer;
 
   @include query(max, mobile) {
     grid-column: 12 span;
@@ -22,6 +21,7 @@
 
   &__description {
     text-shadow: 0 0 20px #dad394;
+    text-transform: lowercase;
   }
 
   &:hover {

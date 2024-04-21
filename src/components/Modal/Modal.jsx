@@ -19,7 +19,7 @@ export default class Modal extends React.Component {
               onClick={() => this.setState({ isOpen: true, isClicked: false })}
               className={`${
                 this.state.isClicked ? 'hide' : 'show'
-              } modal-btn mx-auto text-lg lg:text-xl my-14 lg:my-28`}
+              } modal-btn mx-auto my-14 lg:my-28`}
             >
               Получить бесплатный меч!
             </div>

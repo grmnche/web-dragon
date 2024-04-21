@@ -20,7 +20,7 @@
   height: fit-content;
   background: rgba(24, 24, 24, 0.99);
   color: white;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .modal-btn {
@@ -28,11 +28,17 @@
   @include flexbox(center, center, row, 0);
   padding: 20px;
   border: 1px solid #fff;
-  border-radius: 4px;
+  border-radius: 8px;
   max-width: 450px;
+  font-size: 1.4rem;
+
+  @include query(max, tablet) {
+    font-size: 1.2rem;
+  }
 
   @include query(max, mobile) {
     max-width: unset;
+    font-size: 1rem;
   }
 
   &:hover {
@@ -43,5 +49,5 @@
 .close-modal-btn {
   cursor: pointer;
   display: inline-flex;
-  border-radius: 4px;
+  border-radius: 8px;
 }

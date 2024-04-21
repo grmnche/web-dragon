@@ -7,6 +7,7 @@ export default function Greet() {
 
       <div className="mt-56 lg:w-2/3">
         <p className="text-4xl md:text-5xl lg:text-6xl">Раргхх!..</p>
+        
         <p className="my-3 text-4xl md:text-5xl lg:text-6xl">
           Я веб-дракончик{' '}
           <span className="author-name text-base md:text-lg lg:text-xl text-[#818181]">

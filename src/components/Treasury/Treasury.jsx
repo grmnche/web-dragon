@@ -10,10 +10,7 @@ export default function Treasury() {
           src="./assets/images/dragon2.png"
         ></img>
       </div>
-      <hr
-        data-aos="fade-up"
-        className="border-[#818181]"
-      />
+      <hr data-aos="fade-up" className="border-[#818181]" />
 
       <a name="projects"></a>
 
@@ -28,6 +25,11 @@ export default function Treasury() {
         <Project index={0} />
         <Project index={1} />
         <Project index={2} />
+      </div>
+
+      <div data-aos="fade-up" className="treasury__contact">
+        <h2>Хочешь работать с веб-дракончиком?</h2>
+        <a href="mailto:grmnche@yandex.ru">Написать</a>
       </div>
     </div>
   );

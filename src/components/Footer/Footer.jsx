@@ -16,7 +16,7 @@ export default function Footer() {
         />
       </a>
       <p className="text-[#818181] text-sm mt-2 lg:text-base">
-        © 2024 Герман Чернышёв
+        © 2024 web-dragon
       </p>
     </footer>
   );
