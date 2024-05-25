@@ -41,13 +41,3 @@
 
 **Netlify**
 [https://thriving-biscochitos-25136b.netlify.app/]
-
-**Страницы**
-[Ошибка400](src/pages/error/error400/error400.hbs)
-[Ошибка500](src/pages/error/error500/error500.hbs)
-[Вход](src/pages/login/login.hbs)
-[Регистрация](src/pages/registration/registration.hbs)
-[Изменение данных профиля](src/pages/profile/modules/settings/settings.hbs)
-[Изменение пароля](src/pages/profile/modules/settings-password/settings-password.hbs)
-[Профиль](src/pages/profile/profile.hbs)
-[Чат](src/pages/messenger/messenger.hbs)
