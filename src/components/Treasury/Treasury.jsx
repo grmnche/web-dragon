@@ -25,6 +25,7 @@ export default function Treasury() {
         <Project index={0} />
         <Project index={1} />
         <Project index={2} />
+        <Project index={3} />
       </div>
 
       <div data-aos="fade-up" className="treasury__contact">
