@@ -1,4 +1,4 @@
-[![Build Status](https://img.shields.io/badge/Build-Progress-green)](https://github.com/grmnche/middle.messenger.praktikum.yandex/tree/sprint_1)
+[![Build Status](https://img.shields.io/badge/Build-Progress-yellow)](https://github.com/grmnche/middle.messenger.praktikum.yandex/tree/sprint_1)
 
 ## WebDragonMessenger (WDM)
 
