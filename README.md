@@ -1,6 +1,6 @@
 [![Build Status](https://img.shields.io/badge/Build-Progress-yellow)](https://github.com/grmnche/middle.messenger.praktikum.yandex/tree/sprint_1)
 
-### WebDragonSite
+# WebDragonSite
 
 ## Технологии
 
