@@ -58,8 +58,6 @@ const babelOptions = (preset) => {
   return opts;
 };
 
-console.log('is dev', isDev);
-
 module.exports = {
   context: path.resolve(__dirname, 'src'),
   mode: 'development',
@@ -84,7 +82,7 @@ module.exports = {
     hot: isDev,
     static: {
       directory: path.resolve(__dirname, 'src'),
-    }
+    },
   },
   plugins: [
     new HTMLWebpackPlugin({
@@ -103,7 +101,7 @@ module.exports = {
         {
           from: path.resolve(__dirname, 'src/assets/images'),
           to: path.resolve(__dirname, 'dist/assets/images'),
-        }
+        },
       ],
     }),
     new MiniCssExtractPlugin({
@@ -130,16 +128,21 @@ module.exports = {
       // },
       {
         test: /\.(png|svg|jpg|gif)$/,
-            use: [{
-        loader: 'file-loader',
-        options: {
-            name: f => {
-                let dirNameInsideAssets = path.relative(path.join(__dirname, 'src/assets'), path.dirname(f));
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: (f) => {
+                let dirNameInsideAssets = path.relative(
+                  path.join(__dirname, 'src/assets'),
+                  path.dirname(f),
+                );
                 return `${dirNameInsideAssets}/[name].[ext]`;
-            }
-        }
-    }],
-    },
+              },
+            },
+          },
+        ],
+      },
       {
         test: /\.xml$/,
         use: ['xml-loader'],

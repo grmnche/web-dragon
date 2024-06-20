@@ -20,7 +20,7 @@ export function Project({ className, index }) {
       id: 3,
       title: 'Web Dragon Messenger',
       image: './assets/images/wdm.jpg',
-      link: 'https://github.com/grmnche/web-dragon/tree/dev',
+      link: 'https://github.com/grmnche/wdm',
       stack: 'JS, TS, Handlebars, Vite, SCSS, Chai, Mocha, Express',
     },
     {
@@ -28,7 +28,7 @@ export function Project({ className, index }) {
       title: 'Кибервариус',
       image: './assets/images/cybervarius.jpg',
       link: 'https://grmnche.github.io/cybervarius',
-      stack: 'React JS, SCSS, Tailwind, Webpack',
+      stack: 'React JS, SCSS, Tailwind, Webpack, Redux/Redux Toolkit',
     },
   ]);
 
