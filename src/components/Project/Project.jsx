@@ -27,8 +27,8 @@ export function Project({ className, index }) {
       id: 4,
       title: 'Кибервариус',
       image: './assets/images/cybervarius.jpg',
-      link: 'https://grmnche.github.io/cybervarius',
-      stack: 'React JS, SCSS, Tailwind, Webpack, Redux/Redux Toolkit',
+      link: 'https://cybervarius.ru',
+      stack: 'React TS, SCSS, Tailwind, Webpack, Redux/Redux Toolkit',
     },
   ]);
 
