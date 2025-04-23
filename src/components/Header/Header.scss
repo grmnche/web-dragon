@@ -1,0 +1,26 @@
+@import '/assets/styles/mixins/flexbox';
+@import '/assets/styles/mixins/media';
+@import '/assets/styles/mixins/hover-active';
+
+.header {
+  position: sticky;
+  top: 32px;
+  width: 100%;
+
+  z-index: 1000;
+
+  .nav {
+    @include flexbox(center, center, unset, 32px);
+
+    @include media(max, mobile) {
+      gap: 12px;
+    }
+
+    &__item {
+      font-size: clamp(14px, 1vw, 16px);
+      text-shadow: 0 0 20px #dad394, 0 0 30px rgb(255, 255, 255);
+      color: #dad394;
+      letter-spacing: 2px;
+    }
+  }
+}

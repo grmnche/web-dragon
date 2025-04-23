@@ -1,0 +1,15 @@
+@import '/assets/styles/mixins/media';
+@import '/assets/styles/mixins/_flexbox';
+@import '/assets/styles/mixins/_flexbox';
+
+.skills {
+  @include flexbox(center, center, column, 96px);
+
+  @include media(max, mobile) {
+    gap: 64px;
+  }
+
+  &__icon {
+    margin-bottom: 64px;
+  }
+}

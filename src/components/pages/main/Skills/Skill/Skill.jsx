@@ -14,9 +14,9 @@ function Skill({ skill }) {
   }, []);
 
   return (
-    <div data-aos="fade-up" className="skill" onClick={handle}>
-      <div className="skill__preview w-full flex flex-col">
-        <img src={skill.image} className="skill-img w-16 lg:w-28" alt="..." />
+    <div data-aos="fade-up" className="skill col-12 col-md-6" onClick={handle}>
+      <div className="skill__preview">
+        <img src={skill.image} className="skill-img w-16 lg:w-28" alt="иконка" />
 
         <h1 className="skill__title text-lg lg:text-2xl">{skill.title}</h1>
       </div>

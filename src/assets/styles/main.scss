@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 @import './variables';
-@import './global';
+@import './grid';
+@import './typography';
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
@@ -12,18 +13,30 @@
 @import '../../components/Animation/DragonFireflies/DragonFireflies';
 
 // Components
-@import '../../components/Modal/Modal';
-@import '../../components/Skills/Skills';
-@import '../../components/Skill/Skill';
-@import '../../components/Project/Project';
-@import '../../components/Loader/Loader';
-@import '../../components/Treasury/Treasury';
+@import '../../components/pages/main/Modal/Modal';
+@import '../../components/pages/main/Greet/Greet';
+@import '../../components/pages/main/Skills/Skills';
+@import '../../components/pages/main/Skills/Skill/Skill';
+@import '../../components/pages/main/Loader/Loader';
+@import '../../components/pages/main/Projects/Projects';
+@import '../../components/pages/main/Projects/Project/Project';
+
 @import '../../components/Footer/Footer';
+@import '../../components/Header/Header';
 
 // Mixins
 @import './mixins/flexbox';
 @import './mixins/placeholder';
-@import './mixins/query';
+@import './mixins/media';
+@import './mixins/hover-active';
+
+::selection {
+  background: #0004;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   transition: 0.2s;
@@ -39,7 +52,7 @@
 }
 
 body {
-  color: white;
+  color: #ebebeb;
   margin: 0;
   padding: 0;
   font-family: 'Roboto';
@@ -61,61 +74,41 @@ body {
   background-position: center;
 }
 
-.shadow {
-  box-shadow: none;
-  opacity: 0.6;
+button {
+  padding: 16px 48px;
+  font-size: clamp(16px, 1.5vw, 20px);
+  text-transform: uppercase;
+
+  transition: 0.3s;
+
+  border: 1px solid #fff;
+  border-radius: 16px;
+  text-align: center;
+
+  @include hover-active;
+
+  @include media(max, tablet) {
+    padding: 16px 20px;
+  
+  }
 }
 
-.hide {
-  opacity: 0;
+a {
+  @include hover-active;
+  transition: 0.3s;
+}
+
+ul {
+  @include flexbox(initial, initial, column, 16px);
+  list-style: circle;
+  padding-left: 16px;
+}
+
+// Модификаторы
+.hidden {
   display: none;
 }
 
-.hide-opacity {
-  opacity: 0;
-}
-
-.show {
+.shown {
   display: flex;
-}
-
-.project-image:hover {
-  transform: scale(1.03);
-}
-
-.dad-shadow:hover {
-  text-shadow: 0 0 20px #dad394, 0 0 30px rgb(255, 255, 255);
-  color: #dad394;
-}
-
-.nav-item {
-  text-shadow: 0 0 20px #dad394, 0 0 30px rgb(255, 255, 255);
-  color: #dad394;
-  letter-spacing: 2px;
-
-  &:hover {
-    opacity: 0.6;
-  }
-}
-
-hr {
-  box-shadow: 0 0 20px #dad394;
-}
-
-.dragon-container {
-  display: flex;
-  justify-content: center;
-}
-
-.skill-description,
-.modal-text,
-.project-text {
-  text-transform: lowercase;
-}
-
-@media (min-width: 800px) {
-  .skill-img:active,
-  .skill-text:active {
-    opacity: 0.4;
-  }
 }

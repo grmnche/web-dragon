@@ -40,7 +40,7 @@ const DragonFireflies = ({ count = 30 }) => {
         <div
           ref={(el) => (firefliesRef.current[index] = el)}
           key={index}
-          className={`firefly ${isRender ? 'show' : 'hide'}`}
+          className={`firefly ${isRender ? 'shown' : 'hidden'}`}
         ></div>
       ))}
     </div>

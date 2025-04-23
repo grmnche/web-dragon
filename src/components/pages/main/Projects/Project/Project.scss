@@ -1,0 +1,54 @@
+@import '/assets/styles/mixins/media';
+@import '/assets/styles/mixins/_flexbox';
+
+.project {
+  position: relative;
+  z-index: 100;
+  transition: 0.2s;
+  width: 100%;
+  background-color: #171717;
+
+  min-height: 320px;
+
+  &__picture {
+    position: absolute;
+    inset: 0;
+
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.2;
+    border-radius: 16px;
+
+    filter: brightness(70%);
+  }
+
+  &__desc {
+    position: relative;
+    @include flexbox(initial, initial, column, 20px);
+
+    width: 100%;
+    padding: 40px;
+    z-index: 1;
+
+    @include media(max, mobile) {
+      gap: 10px;
+      padding: 20px;
+    }
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    width: 100%;
+
+    @include media(max, tablet) {
+      font-size: 1.4rem;
+    }
+  }
+
+  &__stack {
+    font-size: 1rem;
+    text-shadow: 0 0 20px #dad394;
+  }
+}
