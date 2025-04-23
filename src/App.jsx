@@ -6,8 +6,8 @@ import Header from './components/Header/Header.jsx';
 import Projects from './components/pages/main/Projects/Projects.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Loader from './components/pages/main/Loader/Loader.jsx';
-import DragonFireflies from './components/Animation/DragonFireflies/DragonFireflies.jsx';
-import NoiseAnimation from './components/Animation/NoiseAnimation.jsx';
+import DragonFireflies from './components/animation/DragonFireflies/DragonFireflies.jsx';
+import NoiseAnimation from './components/animation/NoiseAnimation.jsx';
 import { skills } from '../storage/skills.js';
 
 function App() {
