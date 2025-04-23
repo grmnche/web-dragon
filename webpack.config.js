@@ -78,7 +78,7 @@ module.exports = {
   },
   optimization: optimization(),
   devServer: {
-    port: 3111,
+    port: 3000,
     hot: isDev,
     static: {
       directory: path.resolve(__dirname, 'src'),
