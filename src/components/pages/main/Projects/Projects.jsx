@@ -37,7 +37,7 @@ export default function Projects() {
         <Project index={3} />
       </div>
 
-      <div className="projects__nda">
+      <div data-aos="fade-up" className="projects__nda">
         <h3>NDA-Дракон | Секретные миссии</h3>
 
         <ul>

@@ -9,7 +9,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Flappy Progger — игра с ML-аналитикой',
+    title: 'Flappy Progger — игра с рейтингами',
     image: './assets/images/flappy-progger.jpg',
     link: 'https://github.com/Mansur903/game.praktikum.yandex',
     stack:

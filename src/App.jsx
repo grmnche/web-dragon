@@ -20,8 +20,6 @@ function App() {
     }, 2500);
   }, []);
 
- 
-
   function changeClass() {
     let element = document.querySelector('.origin');
 
@@ -43,41 +41,41 @@ function App() {
     <div className="app" style={divStyle}>
       <NoiseAnimation />
 
-      {/* {loading ? (
+      {loading ? (
         <div className="loader" style={divStyle}>
           <div className="loader-img">
             <Loader />
           </div>
         </div>
-      ) : ( */}
-      <>
-        {!loading && <DragonFireflies count={9} />}
+      ) : (
+        <>
+          {!loading && <DragonFireflies count={9} />}
 
-        <Header />
+          <Header />
 
-        <main>
+          <main>
+            <div className="normalize-container">
+              <Greet changeClass={changeClass} />
+            </div>
+
+            <div className="normalize-container">
+              <Modal />
+            </div>
+
+            <div className="normalize-section normalize-container">
+              <Skills skills={skills} />
+            </div>
+
+            <div className="normalize-section normalize-container">
+              <Projects />
+            </div>
+          </main>
+
           <div className="normalize-container">
-            <Greet changeClass={changeClass} />
+            <Footer />
           </div>
-
-          <div className="normalize-container">
-            <Modal />
-          </div>
-
-          <div className="normalize-section normalize-container">
-            <Skills skills={skills} />
-          </div>
-
-          <div className="normalize-section normalize-container">
-            <Projects />
-          </div>
-        </main>
-
-        <div className="normalize-container">
-          <Footer />
-        </div>
-      </>
-      {/* )} */}
+        </>
+      )}
     </div>
   );
 }
