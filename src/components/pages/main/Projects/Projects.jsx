@@ -46,7 +46,7 @@ export default function Projects() {
             event-платформы, e-commerce
           </li>
           <li>
-            <strong>Архитектура "под замком": </strong> — проектировал системы с
+            <strong>Архитектура "под замком": </strong>проектировал системы с
             ограниченным доступом
           </li>
         </ul>
