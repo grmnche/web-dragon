@@ -8,7 +8,7 @@ export default function Greet() {
 
         <h2>Frontend Developer / WebDragon</h2>
 
-        <p className="text-[#818181]">Огнеупорный код и пламенный UX/UI</p>
+        <p className="text-[#dad394]">Огнеупорный код и пламенный UX/UI</p>
 
         <p>Сжигаю legacy-код, строю реактивные e-commerce-крепости</p>
       </div>

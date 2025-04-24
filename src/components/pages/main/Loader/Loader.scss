@@ -11,6 +11,9 @@
 
   background-size: cover;
   background-position: center;
+
+  user-select: none;
+  pointer-events: none;
 }
 
 .loader-img {
