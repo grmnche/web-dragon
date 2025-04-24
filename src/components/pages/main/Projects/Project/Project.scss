@@ -3,42 +3,34 @@
 
 .project {
   position: relative;
+  @include flexbox(initial, initial, column, 24px);
+
   transition: 0.2s;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 16px;
+  padding: 32px;
 
-  min-height: 320px;
+  @include media(max, mobile) {
+    gap: 16px;
+    padding: 24px;
+  }
 
   &__picture {
-    position: absolute;
-    top: 50%;
-    left: 32px;
-
-    transform: translate(0, -50%);
-    width: calc(100% - 64px);
     border-radius: 16px;
-
     object-fit: contain;
     opacity: 0.3;
-
-    @include media(max, tablet) {
-      left: 16px;
-      width: calc(100% - 32px);
-    }
   }
 
   &__desc {
     position: relative;
-    @include flexbox(initial, initial, column, 20px);
+    @include flexbox(initial, initial, column, 24px);
 
     width: 100%;
-    padding: 32px;
     z-index: 1;
 
     @include media(max, mobile) {
-      gap: 10px;
-      padding: 16px;
+      gap: 16px;
     }
   }
 
