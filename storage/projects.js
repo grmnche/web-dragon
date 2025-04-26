@@ -1,10 +1,10 @@
 export const projects = [
   {
     id: 1,
-    title: 'Лендинг кинокомпании «8 Студия» (Highload)',
+    title: 'Лендинг кинокомпании «8 Студия»',
     image: './assets/img/8studio.jpg',
     link: 'https://8studiofilm.ru',
-    stack: 'React • Tailwind • Webpack • Node.js • 10K+ посетителей/мес',
+    stack: 'React • Tailwind • Webpack • Node.js',
     achievements: [],
   },
   {
