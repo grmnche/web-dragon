@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Skills from './components/pages/main/Skills/Skills.jsx';
-import Greet from './components/pages/main/Greet/Greet.jsx';
+import Greeting from './components/pages/main/Greeting/Greeting.jsx';
 import Modal from './components/pages/main/Modal/Modal.jsx';
 import Header from './components/Header/Header.jsx';
 import Projects from './components/pages/main/Projects/Projects.jsx';
@@ -41,7 +41,7 @@ function App() {
 
           <main>
             <div className="normalize-container">
-              <Greet />
+              <Greeting />
             </div>
 
             <div className="normalize-container">

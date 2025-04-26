@@ -9,6 +9,18 @@
     gap: 64px;
   }
 
+  &__text {
+    @include flexbox(initial, initial, column, 24px);
+  }
+
+  &__certificate {
+    width: 100%;
+    max-width: 720px;
+    
+    margin: 0 auto;
+    border-radius: 16px;
+  }
+
   &__icon {
     margin-bottom: 64px;
   }
