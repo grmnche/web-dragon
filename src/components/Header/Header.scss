@@ -4,13 +4,18 @@
 
 .header {
   position: sticky;
-  top: 32px;
+  top: 8px;
+
   width: 100%;
+  padding: 0 8px;
 
   z-index: 1000;
 
   .nav {
     @include flexbox(center, center, unset, 32px);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    padding: 16px;
 
     @include media(max, mobile) {
       gap: 12px;
@@ -18,8 +23,8 @@
 
     &__item {
       font-size: clamp(14px, 1vw, 16px);
-      text-shadow: 0 0 20px #dad394, 0 0 30px rgb(255, 255, 255);
-      color: #dad394;
+      text-shadow: 0 0 20px var(--primary), 0 0 30px rgb(255, 255, 255);
+      color: var(--primary);
       letter-spacing: 2px;
     }
   }

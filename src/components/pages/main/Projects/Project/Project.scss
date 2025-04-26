@@ -5,9 +5,10 @@
   position: relative;
   @include flexbox(initial, initial, column, 24px);
 
-  transition: 0.2s;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 16px;
   padding: 32px;
 
@@ -19,7 +20,7 @@
   &__picture {
     border-radius: 16px;
     object-fit: contain;
-    opacity: 0.3;
+    opacity: 0.4;
   }
 
   &__desc {
@@ -47,6 +48,7 @@
 
   &__stack {
     font-size: 1rem;
-    text-shadow: 0 0 20px #dad394;
+    color: var(--primary);
+    text-shadow: 0 0 20px var(--primary);
   }
 }

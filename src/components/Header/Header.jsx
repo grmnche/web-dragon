@@ -10,7 +10,7 @@ function Navbar() {
 
         <a href="#top" className="nav__item">
           <img
-            src="./assets/images/dragon-white.png"
+            src="./assets/img/dragon-white.png"
             className="z-10 nav-img w-14"
             alt=""
           />

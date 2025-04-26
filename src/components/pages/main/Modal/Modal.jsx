@@ -28,7 +28,7 @@ const Modal = () => {
 
       {isOpen && (
         <div className="modal__inner">
-          <h3 className="text-[#dad394]">Ловушка для вредоносных рыцарей</h3>
+          <h3 className="text-[var(--primary)]">Ловушка для вредоносных рыцарей</h3>
 
           <p>
             Если вы рыцарь:

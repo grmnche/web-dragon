@@ -81,7 +81,7 @@ module.exports = {
     port: 3000,
     hot: isDev,
     static: {
-      directory: path.resolve(__dirname, 'src'),
+      directory: path.resolve(__dirname, 'dist'),
     },
   },
   plugins: [
@@ -99,8 +99,8 @@ module.exports = {
           to: path.resolve('dist'),
         },
         {
-          from: path.resolve(__dirname, 'src/assets/images'),
-          to: path.resolve(__dirname, 'dist/assets/images'),
+          from: path.resolve(__dirname, 'src/assets/img'),
+          to: path.resolve(__dirname, 'dist/assets/img'),
         },
       ],
     }),
@@ -122,27 +122,11 @@ module.exports = {
         test: /\.s[ac]ss$/,
         use: cssLoaders('sass-loader'),
       },
-      // {
-      //   test: /\.(png|jpg|svg)$/,
-      //   type: 'asset/resource',
-      // },
       {
-        test: /\.(png|svg|jpg|gif)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: (f) => {
-                let dirNameInsideAssets = path.relative(
-                  path.join(__dirname, 'src/assets'),
-                  path.dirname(f),
-                );
-                return `${dirNameInsideAssets}/[name].[ext]`;
-              },
-            },
-          },
-        ],
+        test: /\.(png|jpg|svg)$/,
+        type: 'asset/resource',
       },
+
       {
         test: /\.xml$/,
         use: ['xml-loader'],

@@ -9,7 +9,7 @@ function Skills(props) {
       <img
         data-aos="fade-up"
         className="skills__icon w-64 lg:w-1/3"
-        src="./assets/images/dragon3.png"
+        src="./assets/img/dragon3.png"
       />
 
       <h2 data-aos="fade-up">Скиллы</h2>

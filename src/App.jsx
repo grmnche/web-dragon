@@ -12,6 +12,7 @@ import { skills } from '../storage/skills.js';
 
 function App() {
   const [loading, setLoading] = useState(false);
+
   useEffect(() => {
     setLoading(true);
 
@@ -20,42 +21,27 @@ function App() {
     }, 2500);
   }, []);
 
-  function changeClass() {
-    let element = document.querySelector('.origin');
-
-    element.onclick = function () {
-      if (element == document.querySelector('.change')) {
-        element.classList.remove('change');
-      } else {
-        element.classList.add('change');
-      }
-    };
-    return element;
-  }
-
-  const divStyle = {
-    backgroundImage: 'url("./assets/images/cave.png")',
-  };
+  useEffect(() => {
+    loading
+      ? document.querySelector('body').classList.add('lock')
+      : document.querySelector('body').classList.remove('lock');
+  }, [loading]);
 
   return (
-    <div className="app" style={divStyle}>
+    <div className="app">
       <NoiseAnimation />
 
       {loading ? (
-        <div className="loader" style={divStyle}>
-          <div className="loader-img">
-            <Loader />
-          </div>
-        </div>
+        <Loader className={loading ? '' : 'hidden--opacity'} />
       ) : (
-        <>
+        <div className="main-page">
           {!loading && <DragonFireflies count={9} />}
 
           <Header />
 
           <main>
             <div className="normalize-container">
-              <Greet changeClass={changeClass} />
+              <Greet />
             </div>
 
             <div className="normalize-container">
@@ -74,7 +60,7 @@ function App() {
           <div className="normalize-container">
             <Footer />
           </div>
-        </>
+        </div>
       )}
     </div>
   );

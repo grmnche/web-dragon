@@ -14,10 +14,10 @@
   position: absolute;
   width: 1px;
   height: 1px;
-  background-color: #dad394;
-  box-shadow: 0 0 2px 1px #dad394, 0 0 6px 2px #dad394, 0 0 10px 4px #dad394,
-    0 0 18px 8px #dad394, 0 0 40px 14px #ffffff, 0 0 20px #dad394,
-    0 0 26px #ffffff, 0 0 32px #dad394, 0 0 38px #ffffff, 0 0 44px #dad394;
+  background-color: var(--primary);
+  box-shadow: 0 0 2px 1px var(--primary), 0 0 6px 2px var(--primary), 0 0 10px 4px var(--primary),
+    0 0 18px 8px var(--primary), 0 0 40px 14px #ffffff, 0 0 20px var(--primary),
+    0 0 26px #ffffff, 0 0 32px var(--primary), 0 0 38px #ffffff, 0 0 44px var(--primary);
   opacity: 0.8;
 
   border-radius: 50%;

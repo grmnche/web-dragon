@@ -4,18 +4,19 @@ export default function Greet() {
   return (
     <div data-aos="fade-up" id="top" className="greet">
       <div className="greet__text">
-        <p>Герман Чернышёв</p>
+        <h3>Герман Чернышёв</h3>
 
         <h2>Frontend Developer / WebDragon</h2>
 
-        <p className="text-[#dad394]">Огнеупорный код и пламенный UX/UI</p>
-
-        <p>Сжигаю legacy-код, строю реактивные e-commerce-крепости</p>
+        <p>
+          Огнеупорная бизнес-логика и пламенный UX/UI. Сжигаю legacy-код, строю
+          реактивные e-commerce-крепости.
+        </p>
       </div>
 
       <img
         className="greet__picture w-32 lg:w-48"
-        src="./assets/images/dragon.png"
+        src="/assets/img/dragon.png"
       />
     </div>
   );

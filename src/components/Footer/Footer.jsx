@@ -5,14 +5,14 @@ export default function Footer() {
     <footer className="footer mt-40 mb-4 lg:mt-64 h-20 mx-auto w-full">
       <a href="https://t.me/grmnche" target="_blank">
         <img
-          src="./assets/images/tg-clean.png"
+          src="./assets/img/tg-clean.png"
           className="icon mr-6 mb-4 inline-block"
         />
       </a>
 
       <a href="https://github.com/grmnche" target="_blank">
         <img
-          src="./assets/images/github-clean.png"
+          src="./assets/img/github-clean.png"
           className="icon mb-4 inline-block"
         />
       </a>

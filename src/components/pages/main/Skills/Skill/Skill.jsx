@@ -21,7 +21,7 @@ function Skill({ skill }) {
         <h1 className="skill__title text-lg lg:text-2xl">{skill.title}</h1>
       </div>
 
-      <p className="skill__description text-sm lg:text-xl text-[#dad394]">
+      <p className="skill__description text-sm lg:text-xl text-[var(--primary)]">
         {skill.description}
       </p>
     </div>

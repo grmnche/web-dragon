@@ -7,7 +7,7 @@ export default function Projects() {
       <img
         data-aos="fade-up"
         className="projects__icon w-56 lg:w-80 mx-auto"
-        src="./assets/images/dragon2.png"
+        src="./assets/img/dragon2.png"
       />
 
       <h2 data-aos="fade-up">Сокровищница</h2>
