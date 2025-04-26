@@ -9,7 +9,7 @@ export const skills = [
   {
     id: 2,
     image: './assets/img/icons/2.png',
-    title: 'Пиксель-перфект с драконьей точностью',
+    title: 'Pixel Perfect с драконьей точностью',
     description:
       'SCSS/Sass • Tailwind • Pug • GSAP • Адаптив под 320-8K • 99% Figma',
   },
