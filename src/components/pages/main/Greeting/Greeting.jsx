@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Greeting() {
   return (
-    <div data-aos="fade-up" id="top" className="Greeting">
-      <div className="greet__text">
+    <div data-aos="fade-up" id="top" className="greeting">
+      <div className="greeting__text">
         <h3>Герман Чернышёв</h3>
 
         <h2>Frontend Developer / WebDragon</h2>
@@ -15,7 +15,7 @@ export default function Greeting() {
       </div>
 
       <img
-        className="greet__picture w-32 lg:w-48"
+        className="greeting__img w-32 lg:w-48"
         src="./assets/img/dragon.png"
       />
     </div>

@@ -1,7 +1,7 @@
 @import '/assets/styles/mixins/flexbox';
 @import '/assets/styles/mixins/media';
 
-.Greeting {
+.greeting {
   @include flexbox(center, center, column, 96px);
   height: 100vh;
 
@@ -11,10 +11,6 @@
 
   &__text {
     @include flexbox(initial, initial, column, 24px);
-
-    @include media(max, tablet) {
-      gap: 12px;
-    }
 
     p {
       font-size: clamp(14px, 1.5vw, 20px);
