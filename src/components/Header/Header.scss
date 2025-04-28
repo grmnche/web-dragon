@@ -23,8 +23,7 @@
 
     &__item {
       font-size: clamp(14px, 1vw, 16px);
-      text-shadow: 0 0 20px var(--primary), 0 0 30px rgb(255, 255, 255);
-      color: var(--primary);
+      color: #fff;
       letter-spacing: 2px;
     }
   }
