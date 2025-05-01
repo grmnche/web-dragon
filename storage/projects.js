@@ -9,7 +9,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Flappy Progger — multiplayer-игра с рейтингами',
+    title: 'Аналог Flappy Bird — multiplayer-игра с рейтингами',
     image: './assets/img/flappy-progger.jpg',
     link: 'https://github.com/Mansur903/game.praktikum.yandex',
     stack:
