@@ -22,7 +22,7 @@ export const projects = [
   {
     id: 3,
     title: 'Web Dragon Messenger — корпоративный мессенджер (P2P)',
-    image: './assets/img/wdm.jpg',
+    image: './assets/img/wd.jpg',
     link: 'https://github.com/grmnche/wdm',
     stack: 'TypeScript • Express • WebSocket • E2E-тесты (Mocha/Chai)',
   },
