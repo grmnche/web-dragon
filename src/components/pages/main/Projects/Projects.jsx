@@ -53,11 +53,11 @@ export default function Projects() {
       </div>
 
       <div data-aos="fade-up" className="projects__contact">
-        <h3>Почему Я — Дракончик Вашей Мечты?</h3>
+        <h3>Ищете опытного frontend-разработчика для создания и оптимизации интерфейсов? Вот почему Я — Дракончик Вашей Мечты:</h3>
 
         <ul>
           <li>
-            <strong>Frontend-огонь: </strong>
+            <strong>Frontend под ключ: </strong>
             От Figma-макетов до продакшена
           </li>
 

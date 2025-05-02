@@ -8,7 +8,7 @@ export function Project({ className, index }) {
         <img
           className="project__picture"
           src={projects[index].image}
-          alt="..."
+          alt="Кейс фронтенд-разработчика"
         />
         <div className="project__desc">
           <p className="project__title">{projects[index].title}</p>
