@@ -55,7 +55,7 @@ export default function Projects() {
       <div data-aos="fade-up" className="projects__contact">
         <h4>
           Ищете опытного frontend-разработчика для создания и оптимизации
-          интерфейсов? Тогда я — веб-дракончик вашей мечты:
+          интерфейсов? <br> Тогда я — веб-дракончик вашей мечты:
         </h4>
 
         <ul>
