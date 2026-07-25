@@ -1,14 +1,11 @@
 import React from 'react'
 import {
-  FaFileAlt,
   FaGithub,
   FaTelegramPlane,
   FaEnvelope,
 } from 'react-icons/fa'
 import {
   AUTHOR_TELEGRAM,
-  AUTHOR_HABR,
-  AUTHOR_HH_RESUME,
   AUTHOR_GITHUB,
   AUTHOR_EMAIL,
 } from '@/config/constants'
@@ -17,11 +14,6 @@ import dayjs from 'dayjs'
 const ICON_SIZE = 18
 
 export default function Footer() {
-  const resumeUrl = AUTHOR_HH_RESUME || AUTHOR_HABR
-  const resumeLabel = AUTHOR_HH_RESUME
-    ? 'Резюме на hh.ru'
-    : 'Habr Career'
-
   const currentYear = dayjs().year()
 
   return (
@@ -43,15 +35,15 @@ export default function Footer() {
               aria-label="Контакты для сотрудничества"
             >
               <a
-                href={resumeUrl}
+                href={AUTHOR_TELEGRAM}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__text-link"
               >
                 <span className="footer__link-icon">
-                  <FaFileAlt size={ICON_SIZE} aria-hidden />
+                  <FaTelegramPlane size={ICON_SIZE} aria-hidden />
                 </span>
-                {resumeLabel}
+                Telegram
               </a>
               <a
                 href={`mailto:${AUTHOR_EMAIL}`}
@@ -76,17 +68,6 @@ export default function Footer() {
               className="footer__path-links"
               aria-label="Контакты для менторства"
             >
-              <a
-                href={AUTHOR_TELEGRAM}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="footer__text-link"
-              >
-                <span className="footer__link-icon">
-                  <FaTelegramPlane size={ICON_SIZE} aria-hidden />
-                </span>
-                Telegram
-              </a>
               <a
                 href="#playunmute"
                 className="footer__text-link"

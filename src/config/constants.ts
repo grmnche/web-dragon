@@ -41,14 +41,12 @@ export const SEO_KEYWORDS = [
 ];
 export const AUTHOR_GITHUB = 'https://github.com/webdrgn';
 export const AUTHOR_TELEGRAM = 'https://t.me/grmnche';
-export const AUTHOR_HABR = 'https://career.habr.com/grmnche';
 export const AUTHOR_HABR_PROFILE = 'https://habr.com/ru/users/grmnche/';
 export const AUTHOR_HABR_ARTICLE =
   'https://habr.com/ru/articles/1053396/';
 export const AUTHOR_HABR_ARTICLE_TITLE =
   'Оптимизация без AI: как я автоматизировал API-ручки и типы';
 export const AUTHOR_GITHUB_ARTICLE = 'https://github.com/webdrgn/articles/blob/main/optimizaciya-bez-ai.md';
-export const AUTHOR_HH_RESUME = '';
 export const AUTHOR_LINKEDIN = '';
 export const AUTHOR_SITE = SITE_URL;
 export const AUTHOR_EMAIL = 'grmnche@yandex.ru';
@@ -58,7 +56,6 @@ export const OG_IMAGE = SITE_URL + '/img/resume.jpg';
 export const SAME_AS: string[] = [
   AUTHOR_GITHUB,
   AUTHOR_TELEGRAM,
-  AUTHOR_HABR,
   AUTHOR_HABR_PROFILE,
   AUTHOR_HABR_ARTICLE,
   AUTHOR_SITE,
