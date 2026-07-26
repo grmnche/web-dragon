@@ -35,11 +35,11 @@ export default function Mentorship() {
         <div data-aos="fade-up">
           <p className="section-lead mentorship__lead">
             Боишься собеседований? Я провёл десятки. Знаю, на чём валятся даже
-            сильные ребята.
+            сильные инженеры.
           </p>
           <p className="section-lead mentorship__lead">
             Дам шаблон ответов на каверзные вопросы. Разберу твоё ревью, покажу,
-            где ты сливаешь. Выходишь на уровень middle+ без разрывов.
+            где ты сливаешься.
           </p>
         </div>
       </header>
