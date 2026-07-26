@@ -14,12 +14,17 @@ export default function Skills() {
       </header>
 
       <div className="skills__content">
-        <p
-          data-aos="fade-up"
-          className="section-lead skills__lead"
-        >
-          Выбираю под задачу, команду и нагрузку.
-        </p>
+        <div data-aos="fade-up">
+          <p className="section-lead skills__lead">
+            Технологии просто инструмент. Не фанат. Выбираю под задачу, команду
+            и нагрузку.
+          </p>
+          <p className="section-lead skills__lead">
+            Работал с Vue, React, jQuery. Строил дизайн-системы, настраивал
+            CI/CD, вытаскивал проекты из легаси. Мне не важно на чём, важно чтобы
+            работало и не ломалось.
+          </p>
+        </div>
 
         <div className="skills__grid grid">
           {skills.map((skill) => (

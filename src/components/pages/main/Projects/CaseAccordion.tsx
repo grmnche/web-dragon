@@ -2,7 +2,7 @@
 
 import React, { useId } from 'react'
 import { FaChevronDown } from 'react-icons/fa'
-import type { CaseStudy } from '../../../../../storage/caseStudies'
+import type { Case } from '../../../../../storage/cases'
 
 function renderCaseText(text: string) {
   const parts = text.split(/(\d+\+?%?|\d+ → \d+)/g)
@@ -16,7 +16,7 @@ function renderCaseText(text: string) {
 }
 
 type CaseAccordionProps = {
-  caseEntry: CaseStudy
+  caseEntry: Case
   isOpen: boolean
   onToggle: () => void
 }

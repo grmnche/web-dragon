@@ -22,8 +22,9 @@ export default function SocialProof() {
         className="social-proof__card"
       >
         <p className="social-proof__excerpt">
-          Как мы перестали тратить время на ручную типизацию API. OpenAPI,
-          автоматическая генерация и предсказуемый флоу обновлений.
+          15% времени команды уходило на рутину. Ctrl+C Ctrl+V из спецификации
+          в код. Я убрал это. OpenAPI, авто-генерация, предсказуемые обновления.
+          Разработчики пишут фичи, рутина осталась в прошлом.
         </p>
         <a
           href={AUTHOR_GITHUB_ARTICLE}

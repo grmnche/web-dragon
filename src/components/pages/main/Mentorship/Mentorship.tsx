@@ -32,13 +32,16 @@ export default function Mentorship() {
         <SectionHeading id="mentorship-heading" mascot={SECTION_MASCOTS.mentorship}>
           Менторство
         </SectionHeading>
-        <p
-          className="section-lead mentorship__lead"
-          data-aos="fade-up"
-        >
-          Провел десятки собеседований. Знаю, что там проверяют на самом деле.
-          Помогаю готовиться, прокачивать ревью, выходить на уровень middle+.
-        </p>
+        <div data-aos="fade-up">
+          <p className="section-lead mentorship__lead">
+            Боишься собеседований? Я провёл десятки. Знаю, на чём валятся даже
+            сильные ребята.
+          </p>
+          <p className="section-lead mentorship__lead">
+            Дам шаблон ответов на каверзные вопросы. Разберу твоё ревью, покажу,
+            где ты сливаешь. Выходишь на уровень middle+ без разрывов.
+          </p>
+        </div>
       </header>
 
       <ul className="mentorship__grid">

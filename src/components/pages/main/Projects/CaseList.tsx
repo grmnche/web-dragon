@@ -1,15 +1,15 @@
 'use client'
 
 import React, { useState } from 'react'
-import { caseStudies } from '../../../../../storage/caseStudies'
+import { cases } from '../../../../../storage/cases'
 import CaseAccordion from './CaseAccordion'
 
 export default function CaseList() {
-  const [openId, setOpenId] = useState(caseStudies[0]?.id ?? '')
+  const [openId, setOpenId] = useState(cases[0]?.id ?? '')
 
   return (
     <div className="projects__accordion-list" data-aos="fade-up">
-      {caseStudies.map((caseEntry) => (
+      {cases.map((caseEntry) => (
         <CaseAccordion
           key={caseEntry.id}
           caseEntry={caseEntry}
